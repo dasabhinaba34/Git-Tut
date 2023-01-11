@@ -1,0 +1,7 @@
+git init // to initialize a git repo
+git status // to check the status of the repo
+git add <file-name> // to add the file in staging area
+git commit -m "<message>" // to commit with a message
+git log // to check all the commits
+git checkout <commit address> //to go to the particular commit
+git checkout master // to go to the master 
