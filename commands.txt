@@ -3,5 +3,12 @@ git status // to check the status of the repo
 git add <file-name> // to add the file in staging area
 git commit -m "<message>" // to commit with a message
 git log // to check all the commits
-git checkout <commit address> //to go to the particular commit
+git checkout <commit address>/<branch-name> //to go to the particular commit/branch
 git checkout master // to go to the master  
+touch .gitignore // to create a .gitignore file
+git merge <branch-name> // to merge a branch with the current branch
+git remote -v //
+git remote add origin <link> // 
+git branch -M main // 
+git push -u origin master // to push the master branch
+git push -u origin <branch-name> // to push a branch into GitHub
