@@ -12,4 +12,4 @@ git remote add origin <link> //
 git branch -M main // 
 git push -u origin master // to push the master branch
 git push -u origin <branch-name> // to push a branch into GitHub
-git add REMADME.md // to add a readme file
+touch REMADME.md // to add a readme file
