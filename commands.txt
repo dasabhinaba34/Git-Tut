@@ -13,3 +13,4 @@ git branch -M main //
 git push -u origin master // to push the master branch
 git push -u origin <branch-name> // to push a branch into GitHub
 touch REMADME.md // to add a readme file
+git clone <link> // to clone a repo
