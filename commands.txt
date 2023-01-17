@@ -1,5 +1,6 @@
-git config --global user.name "abhinaba"
-git config --globaluser.email "you@example.com"
+git --version // to check the version
+git config --global user.name "abhinaba" // configuring username
+git config --globaluser.email "you@example.com" // configuring email
 git init // to initialize a git repo
 git status // to check the status of the repo
 git add <file-name> // to add the file in staging area
