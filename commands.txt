@@ -10,10 +10,13 @@ git checkout <commit address>/<branch-name> //to go to the particular commit/bra
 git checkout master // to go to the master  
 touch .gitignore // to create a .gitignore file
 git merge <branch-name> // to merge a branch with the current branch
-git remote -v //
-git remote add origin <link> // 
-git branch -M main // 
+git remote add origin <link> // to add remote repository link
+git branch -M <branch-name> // to create a new branch 
 git push -u origin master // to push the master branch
 git push -u origin <branch-name> // to push a branch into GitHub
 touch REMADME.md // to add a readme file
 git clone <link> // to clone a repo
+git remote set-url origin <repository http link> // to change or rename the remote repository
+git remote -v  // to check the remote repository
+git reset HEAD^ // to delete the very last commit
+git push origin +HEAD # force-push the new HEAD commit
